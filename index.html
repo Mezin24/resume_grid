@@ -6,10 +6,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
+    <title>Portfolio | Grid</title>
   </head>
   <body>
-    <h1 class="text-primary">Hello world</h1>
+    <div class="container">
+        <header id="main-header">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-5">
+                    <img src="img/person1.jpg" class="img-fluid" alt="person">
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="d-flex flex-column">
+                        <div class="p-5 bg-dark text-white">
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <h1 class="display-4">John Doe</h1>
+                                <div class="d-none d-lg-block">
+                                    <a href="https://twitter.com" class="text-white" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://facebook.com" class="text-white" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://instagram.com" class="text-white" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com" class="text-white" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-black">
+                            Experienced Full Stact Web Developer
+                        </div>
+                        <div>
+                            <div class="d-flex flex-row text-white align-items-stretch text-center">
+                                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                                    <i class="fas fa-home fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Home</span>
+                                </div>
+                                <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Resume</span>
+                                </div>
+                                <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                                    <i class="fas fa-folder-open fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Work</span>
+                                </div>
+                                <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                                    <i class="fas fa-envelope fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Contact</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
