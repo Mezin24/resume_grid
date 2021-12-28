@@ -47,7 +47,7 @@
                         </div>
                         <div>
                             <div class="d-flex flex-row text-white align-items-stretch text-center">
-                                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home" >
                                     <i class="fas fa-home fa-2x d-block"></i>
                                     <span class="d-none d-sm-block">Home</span>
                                 </div>
@@ -104,6 +104,14 @@
             </div>
           </div>
 
+          <!-- RESUME -->
+          <div class="collapse" id="resume">
+            <div class="card card-body bg-success text-white py-5 ">
+              <h2>My Resume</h2>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur nam, ad hic nesciunt quasi tempore.</p>
+            </div>
+          </div>
+
         <!-- FOOTER -->
         <footer id="main-footer" class="p-5 bg-dark text-white">
             <div class="row">
@@ -118,5 +126,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script>
+        // document.querySelectorAll('.port-item').forEach(el => {
+        //     el.addEventListener('click', function() {
+        //         document.querySelectorAll('.collapse').forEach(item => {
+        //             item.classList.remove('show')
+        //         })
+        //     })
+        // })
+
+        $('.port-item').click(function() {
+            $('.collapse').collapse('hide')
+        })
+    </script>
   </body>
 </html>
